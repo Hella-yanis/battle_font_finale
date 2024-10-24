@@ -1,0 +1,28 @@
+
+
+
+
+@font-face {
+  font-family: 'MovementV';
+  src: url(../font/movement/MovementV.woff2) format('woff2');
+   /*
+  axes : 
+  "SPAC" : arrondie (100 - 120)
+  "wght" : graisse (100 - 900)
+  */
+}
+
+
+
+@font-face {
+  font-family: 'sixtyhour';
+  src: url(../font/sixtyhour/Sixtyfour.woff2) format('woff2');
+   /*
+  axes : 
+  "SCAN" : épaisseur des lignes((-53)-100)
+  "BLED": longueur des lignes(0-100);
+  */
+}
+
+
+

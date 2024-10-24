@@ -1,0 +1,264 @@
+
+body{
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+main{
+  display: block;
+  position: relative;
+  width: 3000px;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+#zone1{
+  height: 100vh;
+  cursor : url(../css/chat1.png), pointer;
+}
+
+#zone2{
+  height: 100vh;
+  cursor : url(../css/chat2.png), pointer;
+background:linear-gradient(rgb(248, 248, 243),rgb(223, 236, 148) ) ;
+}
+
+#zone3{
+  height: 100vh;
+  cursor : url(../css/chat3.png), pointer;
+}
+
+.movement{
+  font-family: 'MovementV';
+}
+  
+
+.sixtyhour{
+  font-family: 'sixtyhour';
+}
+
+
+ 
+ h1{
+position:absolute;
+top: 110px;
+font-size: 210px;
+color: rgb(187, 159, 219);
+font-variation-settings: "SCAN" -43, "BLED" 100;
+rotate: 3deg;
+ }
+
+ @keyframes one {
+0% {
+  color: rgb(226, 43, 19);
+  rotate: 0deg;
+}
+100% {
+  color: rgb(223, 226, 21);
+  rotate: 360deg;
+}
+ }
+
+ #one {
+  animation-name: one;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+ }
+
+ h2{
+  position:absolute;
+  top: 1343px;
+  font-size: 210px;
+  color: rgb(187, 159, 219);
+  font-variation-settings: "SCAN" -43, "BLED" 100;
+  rotate: -7deg;
+  
+   }
+
+   h3{
+    position:absolute;
+    top: 360px;
+    left: 89px;
+    font-size: 125px;
+    color: rgb(168, 68, 68);
+    font-variation-settings: "SPAC" 120, "wght" 500;
+     }
+
+  h4{
+    position:absolute;
+    top: 1707px;
+    left : 1416px;
+    font-size: 76px;
+    color: rgb(168, 68, 68);
+    font-variation-settings: "SPAC" 120, "wght" 500;
+    }
+
+    h5{
+      position:absolute;
+      top: 757px;
+      left: 1978px;
+      font-size: 199px;
+      color: rgb(168, 68, 68);
+      font-variation-settings: "SPAC" 120, "wght" 500;
+       }
+
+
+@keyframes two {
+0% {
+  font-family: 'MovementV';
+   font-size: 100px;
+    font-variation-settings: "SPAC" 120,"wght" 500;
+   }
+100% {
+  font-family: 'MovementV';
+     font-size: 1470px;
+     font-variation-settings: "SPAC" 100, "wght" 900;
+    
+     }
+
+
+
+       }
+#zone2:hover #two{
+  font-family: 'MovementV';
+  animation-name: two;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+       
+h6{
+  font-family: 'movement';
+  color: rgb(168, 68, 68);
+  position: relative;
+  top: 1px;
+  font-size: 100px;
+  font-variation-settings: "SPAC" 120,"wght" 500;
+}
+
+
+#three{
+  position: relative;
+  
+  color: rgb(187, 159, 219);
+  left: 2562px;
+font-size: 100px;
+font-variation-settings: "SCAN" 50, "BLED" 60;
+
+}
+    
+#zone2:hover #three{
+  animation-name:mama;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards
+}
+
+  @keyframes mama{ 
+    0%{
+    font-size: 100px;
+    
+    }
+
+    100%{
+      font-size: 20px;
+      
+    }
+
+
+  }
+
+ #four{
+  
+  position: relative;
+  left: 70px;
+  top: 1px;
+  font-size: 1100px;
+  font-variation-settings: "SPAC" 100, "wght" 900;
+  opacity: 0%;
+ }
+
+ #zone3:hover #four{
+  animation-name: popo;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+ }
+
+ @keyframes popo{
+  0%{
+    opacity: 0%;
+  }
+  50%{
+    opacity: 0%;
+    top: 1px;
+  }
+  75%{
+    opacity: 100%;
+
+  }
+  90%{
+    opacity: 100%;
+    top: 700px;
+  }
+  95%{
+    opacity: 100%;
+    top: 600px;
+  }
+  100%{
+    opacity: 100%;
+    top: 900px;
+  }
+ }
+
+ #five{
+  position: relative;
+  color: rgb(187, 159, 219);
+  top: 750px;
+  font-size: 124px;
+  font-variation-settings: "SCAN" 0,"BLED" 10
+ }
+
+ #zone3:hover #five{
+  animation-name: bibi;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+ }
+
+ @keyframes bibi{
+  0%{
+    top: 750px;
+    font-variation-settings: "SCAN" 0,"BLED" 10
+  
+  }
+  40%{
+    top: 750px;
+    font-variation-settings: "SCAN" 0,"BLED" 10
+    
+  }
+  50%{
+    top: 850px;
+    font-variation-settings: "SCAN" -20, "BLED" 60;
+  }
+  65%{
+    top: 850px;
+    font-variation-settings: "SCAN" -53, "BLED" 100;
+  }
+  80%{
+    top: 850px;
+  
+  }
+  100%{
+    top: 850px;
+    font-variation-settings: "SCAN" -53, "BLED" 100; 
+    
+  }
+ }
